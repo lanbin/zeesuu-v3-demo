@@ -1,0 +1,29 @@
+{
+  "name": "zeesuu-v3-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@zeesuu-v3/login": "^1.0.1",
+    "@zeesuu-v3/permission": "^1.0.2",
+    "@zeesuu-v3/rules": "^1.0.3",
+    "@zeesuu-v3/search-table": "^1.0.8",
+    "@zeesuu-v3/select": "^1.0.5",
+    "@zeesuu-v3/service": "^1.0.5",
+    "axios": "^0.26.1",
+    "element-plus": "2.1.7",
+    "vue": "^3.2.25",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "less": "^4.1.2",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
